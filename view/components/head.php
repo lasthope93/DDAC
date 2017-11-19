@@ -1,7 +1,7 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="description" content="DDAC Airways" />
-<link rel="shortcut icon" type="image/png" href="/img/logo.png">
+<link rel="shortcut icon" type="image/png" href="">
 
 <title><?php echo Config::get('site_name') . " | " . ucwords ($page) ?></title>
 
