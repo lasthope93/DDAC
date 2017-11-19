@@ -6,8 +6,8 @@
                 <div class="three wide column">
                     <h4 class="ui inverted">Company</h4>
                     <div class="ui inverted link list">
-                        <a href="https://github.com/Isaacntk/ddac-airline" class="item">About</a>
-                        <a href="https://github.com/Isaacntk/ddac-airline" class="item">Contact Us</a>
+                        <a href="#" class="item">About</a>
+                        <a href="#" class="item">Contact Us</a>
                     </div>
                 </div>
                 <div class="five wide column">
