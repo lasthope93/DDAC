@@ -35,15 +35,21 @@
         echo '<script>var booked = '.json_encode($occ_seats).'</script>';
     }
     else{
-        //Check seat available
-        $db->execute('SELECT seat FROM booking 
-        WHERE flight_id="'.$flight.'" AND seat="'.$seat.'"');
-        
+        $result = $db->first();
+        $departure = date("H:i, D, d M",strtotime($result->departure_time));
+        $origin = $result->origin;
+        $destination = $result->destination;
+        $price = $result->price;
+		
         //Add booking
         $db->insert('booking', array(
             'flight_id' => $flight,
             'passenger_id' => $_SESSION['username'],
-            'seat' => $seat
+            'seat' => $seat,
+			'departure_time' => $departure,
+			'origin' => $origin,
+			'destination' => $destination,
+			'price' => $price
         ));
         header('Location: member');
         exit();

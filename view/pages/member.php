@@ -9,8 +9,6 @@
     //Get Bookings
     $db = DB::getInstance();
     $db->execute('SELECT seat, flight_id, departure_time, origin, destination FROM booking
-        INNER JOIN flight
-        ON booking.flight_id = flight.id
         WHERE passenger_id="'.$_SESSION['username'].'"');
 ?>
 <script>
