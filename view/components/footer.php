@@ -1,4 +1,5 @@
 <footer>
+<div class="indeximgcontainer">
     <div class="ui inverted vertical footer segment">
         <div class="ui container">
             <div class="ui stackable inverted divided equal height stackable grid">
@@ -10,10 +11,11 @@
                     </div>
                 </div>
                 <div class="five wide column">
-                    <h4 class="ui inverted">&#169; Copyright Shippr 2017</h4>
-                    <p>This web application was developed by Tze Ken for the DDAC Assignment</p>
+                    <h4 class="ui inverted">&#169;2017 Apple Pineapple Umbrella</h4>
+                    <p>This system is brought to you by APU Corp&#169</p>
                 </div>
             </div>
         </div>
     </div>
+	</div>
 </footer>

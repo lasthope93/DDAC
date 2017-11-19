@@ -70,22 +70,22 @@ $( document ).ready(function() {
                         <select name="origin" class="ui search dropdown fluid">
                             <option value="">Origin</option>
                             <option value="AKL">Auckland (AKL)</option>
-                            <option value="PEK">Beijing (PEK)</option>
+                            <option value="DPS">Bali (DPS)</option>
                             <option value="KUL">Kuala Lumpur (KUL)</option>
                             <option value="HND">Tokyo - Haneda (HND)</option>
                             <option value="SIN">Singapore (SIN)</option>
-                            <option value="SYD">Sydney (SYD)</option>
+                            <option value="DEL">New Delhi (DEL)</option>
                         </select>
                     </div>
                     <div class="field">
                         <select name="destination" class="ui search dropdown fluid">
                             <option value="">Destination</option>
                             <option value="AKL">Auckland (AKL)</option>
-                            <option value="PEK">Beijing (PEK)</option>
+                            <option value="DPS">Bali (DPS)</option>
                             <option value="KUL">Kuala Lumpur (KUL)</option>
                             <option value="HND">Tokyo - Haneda (HND)</option>
                             <option value="SIN">Singapore (SIN)</option>
-                            <option value="SYD">Sydney (SYD)</option>
+                            <option value="DEL">New Delhi (DEL)</option>
                         </select>
                     </div>
                     <button type="submit" class="ui button fluid primary large">Search</button>
