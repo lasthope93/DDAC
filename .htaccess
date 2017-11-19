@@ -1,0 +1,9 @@
+#PHP Only
+
+#URL Cleaning
+RewriteEngine On
+
+#Rewrite request (page only)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([^/]+)/?$ index.php?page=$1 [L,QSA]
